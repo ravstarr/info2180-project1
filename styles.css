@@ -4,6 +4,7 @@ body {
     margin: 0;
     color: #4A5568;
     background-color: #F7FAFC;
+    font-size: 18px;
 }
 
 .container {
@@ -57,16 +58,16 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #4A5568;
+    color: #6b7280;
 }
 
 header nav ul li a:hover {
-    color: #6B46C1;
+    color: #5A67D8;
 }
 
 /* Hero Section */
 .hero {
-    background-color: #EBF8FF;
+    background-color: #E2E8F0;
     padding: 3rem 0;
 }
 
@@ -89,6 +90,11 @@ header nav ul li a:hover {
     padding: 4rem 0;
 }
 
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
+
 .learn-about h3 {
     margin-bottom: 2rem;
 }
@@ -105,6 +111,7 @@ header nav ul li a:hover {
     border-radius: 8px;
     padding: 1.5rem;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
@@ -113,12 +120,13 @@ header nav ul li a:hover {
 }
 
 .card h4 {
-    color: #2D3748;
+    color: #48BB78;
+    font-size: 21px;
 }
 
 /* COVID-19 Testing Section */
 .covid-testing {
-    background-color: #2D3748;
+    background-color: #4A5568;
     color: #FFF;
     padding: 3rem 0;
 }
@@ -130,7 +138,7 @@ header nav ul li a:hover {
 }
 
 .covid-testing .btn {
-    background-color: #38A169;
+    background-color: #48BB78;
 }
 
 /* Recent Stories Section */
@@ -139,7 +147,7 @@ header nav ul li a:hover {
 }
 
 .recent-stories h3 {
-    color: #6B46C1;
+    color: #5A67D8;
     margin-bottom: 2rem;
 }
 
@@ -162,23 +170,24 @@ header nav ul li a:hover {
 }
 
 .story-content h4 {
-    color: #6B46C1;
+    color: #5A67D8;
 }
 
 .story-content a {
-    color: #6B46C1;
+    color: #5A67D8;
     font-weight: bold;
 }
 
 /* Newsletter Section */
 .newsletter {
-    background-color: #C6F6D5;
+    background-color: #48BB78;
     padding: 3rem 0;
     text-align: center;
+    color: white;
 }
 
 .newsletter h3 {
-    color: #2F855A;
+    color: white;
 }
 
 .newsletter form {
@@ -195,7 +204,7 @@ header nav ul li a:hover {
 }
 
 .newsletter .btn {
-    background-color: #6B46C1;
+    background-color: #5A67D8;
     border-radius: 0 5px 5px 0;
     border: none;
     cursor: pointer;
@@ -209,8 +218,8 @@ header nav ul li a:hover {
 
 /* Footer */
 footer {
-    background-color: #2D3748;
-    color: #A0AEC0;
+    background-color: #4A5568;
+    color: white;
     text-align: center;
     padding: 1.5rem 0;
 }
