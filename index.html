@@ -3,19 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1</title>
+    <title>INFO2180 Project 1</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="headerpicture.jpg" alt="Hero Header Image">
+        <div class="container">
+            <a href="#" class="logo">INFO2180 Project 1</a>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Stories</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <h1>Welcome to Our Project</h1>
-        <p>This is a sample project for information technologies.</p>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-text">
+                    <h2>Live your healthiest life now!</h2>
+                    <p>At INFO2180 Labs we're committed to improving the lives of as many people as possible. One of the most important areas in which we're striving to do that is health.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="headerpicture.jpg" alt="Healthy lifestyle header image">
+                </div>
+            </div>
+        </section>
+
+        <section class="learn-about">
+            <div class="container">
+                <h3>Learn About</h3>
+                <div class="cards">
+                    <div class="card">
+                        <img src="aipic.jpg" alt="Artificial intelligence concept">
+                        <h4>Artificial Intelligence</h4>
+                        <p>Learn how our innovations in machine learning are making a positive impact on healthcare.</p>
+                    </div>
+                    <div class="card">
+                        <img src="health.jpg" alt="Health and fitness tracking">
+                        <h4>Fitness+ Tracker</h4>
+                        <p>Fitness+ is our new, engaging and personalized fitness tracking app experience designed to help you stay in shape and feel great.</p>
+                    </div>
+                    <div class="card">
+                        <img src="fitness.jpg" alt="Healthy lifestyle and wellbeing">
+                        <h4>Healthy Lifestyle</h4>
+                        <p>Being healthy should be part of your overall lifestyle. Living a healthy lifestyle can help prevent chronic diseases and long-term illnesses.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="covid-testing">
+            <div class="container">
+                <div class="covid-text">
+                    <h3>COVID-19 Testing Programme</h3>
+                    <p>Providing secure and connected COVID-19 screening and testing services to communities in collaboration with public health agencies and industry partners.</p>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </section>
+
+        <section class="recent-stories">
+            <div class="container">
+                <h3>Recent Stories</h3>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" alt="Dr. Christopher Turk">
+                    <div class="story-content">
+                        <h4>Dr. Christopher Turk has spent his entire career caring for people's health and wellbeing.</h4>
+                        <p>After years in the healthcare system, Dr. Christopher Turk is bringing together groups of people across the world to take on big healthcare challenges through groundbreaking research and patient-centered care.</p>
+                        <a href="#">Read His Story</a>
+                    </div>
+                </article>
+                <article>
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Medical professional with a tablet">
+                     <div class="story-content">
+                        <h4>INFO2180 Labs collaborates with the Ministry of Health and Ministry of Education on COVID-19 Risk Screening and Testing</h4>
+                        <p>INFO2180 Labs, in collaboration with the Ministry of Health and Wellness and Ministry of Education, will launch a pilot project intended to expand access to COVID-19 risk screening and testing, ensuring safer learning environments and healthier communities.</p>
+                        <a href="#">Read this Story</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <h3>Sign up for our newsletter</h3>
+                <p>Learn more about the latest developments from INFO2180 Labs' health-related research and initiatives.</p>
+                <form>
+                    <input type="email" id="email" placeholder="Email address">
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+                 <div class="message"></div>
+            </div>
+        </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 Project 1</p>
+        <div class="container">
+            <p>Copyright 2020, Ravaughn Marsh</p>
+        </div>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
